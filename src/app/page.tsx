@@ -82,7 +82,7 @@ export default function Home() {
       }}
     >
       <Navbar componentRef={componentRef} onAddModal={onAddModal} />
-      <main className="min-h-screen p-8 bg-[#F4F4F4] flex justify-between max-lg:flex-col max-lg:gap-8">
+      <main className="min-h-screen max-lg:px-2 px-8 py-8 bg-[#F4F4F4] flex justify-between max-lg:flex-col max-lg:gap-8">
         <Editor onAddItem={onAddItem} />
         <Preview ref={componentRef} />
       </main>

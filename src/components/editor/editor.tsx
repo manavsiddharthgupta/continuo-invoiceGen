@@ -32,7 +32,7 @@ export const Editor = memo(({ onAddItem }: { onAddItem: () => void }) => {
 
   return (
     <div className="min-w-[300px] max-lg:w-full w-[60%]">
-      <p className="text-xs">
+      <p className="text-xs max-lg:px-4">
         Fill in all the required fields, preview your invoice and get it emailed
         directly to you.
       </p>
